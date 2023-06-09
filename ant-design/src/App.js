@@ -4,6 +4,8 @@ import 'antd/dist/reset.css';
 import { Button } from 'antd';
 import { useState } from 'react';
 import {PoweroffOutlined} from "@ant-design/icons"
+import AntButton from './components/AntButton';
+import AntInput from './components/AntInput';
 
 function App() {
   const [loading, setLoading] = useState(false)
@@ -16,11 +18,7 @@ function App() {
   }
   return ( 
     <div className="App">
-      <div className='App-header'>
-        {/* this button will take the full width of its parent */}
-        <Button type='primary' block onClick={onButtonClick} loading={loading} icon={<PoweroffOutlined></PoweroffOutlined>}  className='my-button'>Block Button</Button> 
-        <Button type='link' href="https://www.google.com">Link Button</Button>
-      </div>
+     <AntInput></AntInput>
     </div>
   );
 }
