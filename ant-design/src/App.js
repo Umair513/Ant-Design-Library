@@ -8,6 +8,7 @@ import AntButton from './components/AntButton';
 import AntInput from './components/AntInput';
 import SelectDropdown from './components/SelectDropdown';
 import AntForm from './components/AntForm';
+import AntTable from './components/AntTable';
 
 function App() {
   const [loading, setLoading] = useState(false)
@@ -20,7 +21,7 @@ function App() {
   }
   return ( 
     <div className="App">
-     <AntForm></AntForm>
+     <AntTable></AntTable>
     </div>
   );
 }
