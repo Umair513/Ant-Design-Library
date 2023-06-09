@@ -6,6 +6,7 @@ import { useState } from 'react';
 import {PoweroffOutlined} from "@ant-design/icons"
 import AntButton from './components/AntButton';
 import AntInput from './components/AntInput';
+import SelectDropdown from './components/SelectDropdown';
 
 function App() {
   const [loading, setLoading] = useState(false)
@@ -18,7 +19,7 @@ function App() {
   }
   return ( 
     <div className="App">
-     <AntInput></AntInput>
+     <SelectDropdown></SelectDropdown>
     </div>
   );
 }
