@@ -7,6 +7,7 @@ import {PoweroffOutlined} from "@ant-design/icons"
 import AntButton from './components/AntButton';
 import AntInput from './components/AntInput';
 import SelectDropdown from './components/SelectDropdown';
+import AntForm from './components/AntForm';
 
 function App() {
   const [loading, setLoading] = useState(false)
@@ -19,7 +20,7 @@ function App() {
   }
   return ( 
     <div className="App">
-     <SelectDropdown></SelectDropdown>
+     <AntForm></AntForm>
     </div>
   );
 }
