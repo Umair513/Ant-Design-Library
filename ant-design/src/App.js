@@ -9,6 +9,7 @@ import AntInput from './components/AntInput';
 import SelectDropdown from './components/SelectDropdown';
 import AntForm from './components/AntForm';
 import AntTable from './components/AntTable';
+import AntDatePicker from './components/AntDatePicker';
 
 function App() {
   const [loading, setLoading] = useState(false)
@@ -21,7 +22,7 @@ function App() {
   }
   return ( 
     <div className="App">
-     <AntForm></AntForm>
+     <AntDatePicker></AntDatePicker>
     </div>
   );
 }
