@@ -10,6 +10,7 @@ import SelectDropdown from './components/SelectDropdown';
 import AntForm from './components/AntForm';
 import AntTable from './components/AntTable';
 import AntDatePicker from './components/AntDatePicker';
+import AntSpinComponent from './components/AntSpinComponent';
 
 function App() {
   const [loading, setLoading] = useState(false)
@@ -22,7 +23,7 @@ function App() {
   }
   return ( 
     <div className="App">
-     <AntDatePicker></AntDatePicker>
+     <AntSpinComponent></AntSpinComponent>
     </div>
   );
 }
