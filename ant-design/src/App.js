@@ -11,6 +11,7 @@ import AntForm from './components/AntForm';
 import AntTable from './components/AntTable';
 import AntDatePicker from './components/AntDatePicker';
 import AntSpinComponent from './components/AntSpinComponent';
+import AntProgress from './components/AntProgress';
 
 function App() {
   const [loading, setLoading] = useState(false)
@@ -23,7 +24,7 @@ function App() {
   }
   return ( 
     <div className="App">
-     <AntSpinComponent></AntSpinComponent>
+     <AntProgress></AntProgress>
     </div>
   );
 }
