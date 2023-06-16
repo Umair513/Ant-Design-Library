@@ -14,6 +14,7 @@ import AntSpinComponent from './components/AntSpinComponent';
 import AntProgress from './components/AntProgress';
 import AntPagination from './components/AntPagination';
 import AntRows from './components/AntRows';
+import AntIcons from './components/AntIcons';
 
 function App() {
   const [loading, setLoading] = useState(false)
@@ -26,7 +27,7 @@ function App() {
   }
   return ( 
     <div className="App">
-     <AntRows></AntRows>
+     <AntIcons></AntIcons>
     </div>
   );
 }
